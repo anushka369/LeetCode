@@ -8,7 +8,27 @@ This repository contains my solutions to various **LeetCode** problems, covering
 
 The solutions are categorized based on problem topics:
 
-/leetcode-solutions │── /arrays │── /strings │── /linked-lists │── /trees │── /graphs │── /dynamic-programming │── /recursion │── /backtracking │── /sorting-searching │── /bit-manipulation │── /math │── /greedy │── /stack-queue │── /heap-priority-queue │── /sliding-window │── /trie │── README.md
+```
+/Leetcode-Solutions
+│
+│── /arrays 
+│── /strings 
+│── /linked-lists 
+│── /trees 
+│── /graphs
+│── /dynamic-programming
+│── /recursion
+│── /backtracking
+│── /sorting-searching
+│── /bit-manipulation
+│── /math
+│── /greedy
+│── /stack-queue
+│── /heap-priority-queue
+│── /sliding-window
+│── /trie
+└── README.md
+```
 
 Each file contains solutions to relevant problems, named according to their **LeetCode problem number and title**.
 
