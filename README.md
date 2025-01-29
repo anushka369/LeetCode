@@ -4,7 +4,7 @@ This repository contains my solutions to various **LeetCode** problems, covering
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure 📂
 
 The solutions are categorized based on problem topics:
 
@@ -14,7 +14,7 @@ Each file contains solutions to relevant problems, named according to their **Le
 
 ---
 
-## 📖 How to Use
+## How to Use 📖
 
 1. **Clone the repository**:
    ```bash
@@ -31,7 +31,7 @@ Each file contains solutions to relevant problems, named according to their **Le
 
 ---
 
-## 📌 Topics Covered
+## Topics Covered 📌
 - Arrays
 - Strings
 - Linked Lists
@@ -50,7 +50,7 @@ Each file contains solutions to relevant problems, named according to their **Le
 
 ---
 
-## 📜 Contributing
+## Contributing 📜
 
 Feel free to contribute by adding new solutions or improving existing ones:
 
@@ -72,7 +72,7 @@ Feel free to contribute by adding new solutions or improving existing ones:
 
 ---
 
-## 🌟 Acknowledgments
+## Acknowledgments 🌟
 Inspired by LeetCode problems. Thanks to the open-source community for the learning resources.
 
 ## Author ✏️
