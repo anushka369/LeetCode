@@ -74,3 +74,7 @@ Feel free to contribute by adding new solutions or improving existing ones:
 
 ## 🌟 Acknowledgments
 Inspired by LeetCode problems. Thanks to the open-source community for the learning resources.
+
+## Author ✏️
+Developed by **Anushka**. <br>
+📧 [ab8991@srmist.edu.in](mailto:ab8991@srmist.edu.in)
