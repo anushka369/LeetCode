@@ -6,4 +6,4 @@ class Solution:
                 return [d[y], i]
             d[x] = i
 
-# Link to the problem: https://leetcode.com/problems/two-sum/description/?source=submission-ac/
+# Link to the problem: https://leetcode.com/problems/two-sum/
