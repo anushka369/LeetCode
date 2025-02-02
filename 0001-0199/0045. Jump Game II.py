@@ -7,3 +7,5 @@ class Solution:
                 ans += 1
                 last = mx
         return ans
+
+# Link to the problem: https://leetcode.com/problems/jump-game-ii/

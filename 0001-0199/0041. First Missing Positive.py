@@ -9,3 +9,5 @@ class Solution:
             if nums[i] != i + 1:
                 return i + 1
         return n + 1
+
+# Link to the problem: https://leetcode.com/problems/first-missing-positive/
