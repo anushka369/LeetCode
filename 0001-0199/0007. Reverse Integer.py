@@ -12,4 +12,4 @@ class Solution:
             x = (x - y) // 10
         return ans
 
-# Link to the problem: https://leetcode.com/problems/reverse-integer/description/
+# Link to the problem: https://leetcode.com/problems/reverse-integer/
