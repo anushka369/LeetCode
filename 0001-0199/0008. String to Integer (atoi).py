@@ -23,3 +23,5 @@ class Solution:
             res = res * 10 + c
             i += 1
         return sign * res
+
+# Link to the problem: https://leetcode.com/problems/string-to-integer-atoi/
