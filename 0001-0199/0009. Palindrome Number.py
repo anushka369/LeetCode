@@ -7,3 +7,5 @@ class Solution:
             y = y * 10 + x % 10
             x //= 10
         return x in (y, y // 10)
+
+# Link to the problem: https://leetcode.com/problems/palindrome-number/
