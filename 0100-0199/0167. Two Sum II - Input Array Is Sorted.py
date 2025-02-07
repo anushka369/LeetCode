@@ -4,7 +4,7 @@ class Solution:
       
         for i in range(n - 1):
             x = target - numbers[i]
-            j = bisect_left(numbers, x, lo=i + 1)
+            j = bisect_left(numbers, x, lo = i + 1)
           
             if j < n and numbers[j] == x:
                 return [i + 1, j + 1]
