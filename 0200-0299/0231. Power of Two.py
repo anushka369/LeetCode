@@ -1,0 +1,5 @@
+class Solution:
+    def isPowerOfTwo(self, n: int) -> bool:
+        return n > 0 and (n & (n - 1)) == 0
+
+# Link to the problem: https://leetcode.com/problems/power-of-two/
