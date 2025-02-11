@@ -6,27 +6,16 @@ This repository contains my solutions to various **LeetCode** problems, covering
 
 ## Repository Structure 📂
 
-The solutions are categorized based on problem topics:
+The solutions are categorized based on problem numbers:
 
 ```
 /Leetcode-Solutions
 │
-│── /arrays 
-│── /strings 
-│── /linked-lists 
-│── /trees 
-│── /graphs
-│── /dynamic-programming
-│── /recursion
-│── /backtracking
-│── /sorting-searching
-│── /bit-manipulation
-│── /math
-│── /greedy
-│── /stack-queue
-│── /heap-priority-queue
-│── /sliding-window
-│── /trie
+│── /0001-0099 
+│── /0100-0199 
+│── /0200-0299
+│── /0300-0399
+│── . . .
 └── README.md
 ```
 
@@ -47,7 +36,7 @@ Each file contains solutions to relevant problems, named according to their **Le
    
 3. Run a solution
    ```bash
-   python3 two_sum.py
+   python3 0001. Two Sum.py
 
 ---
 
