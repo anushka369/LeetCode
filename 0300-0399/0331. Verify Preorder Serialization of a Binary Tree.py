@@ -1,27 +1,13 @@
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
-
 class Solution:
-    def largestBSTSubtree(self, root: Optional[TreeNode]) -> int:
-        def dfs(root):
-            if root is None:
-                return inf, -inf, 0
-
-            lmi, lmx, ln = dfs(root.left)
-            rmi, rmx, rn = dfs(root.right)
-            nonlocal ans
+    def isValidSerialization(self, preorder: str) -> bool:
+        stk = []
+        
+        for c in preorder.split(","):
+            stk.append(c)
             
-            if lmx < root.val < rmi:
-                ans = max(ans, ln + rn + 1)
-                return min(lmi, root.val), max(rmx, root.val), ln + rn + 1
-            return -inf, inf, 0
-
-        ans = 0
-        dfs(root)
-        return ans
+            while len(stk) > 2 and stk[-1] == stk[-2] == "#" and stk[-3] != "#":
+                stk = stk[:-3]
+                stk.append("#")
+        return len(stk) == 1 and stk[0] == "#"
 
 # Link to the problem: https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/
